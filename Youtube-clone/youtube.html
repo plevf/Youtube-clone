@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+          <img class="hamburger-menu" src="icons/hamburger-menu.svg">    
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/Kep1.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq720.avif">
+            <div class="video-time">1:09:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Git Tutorial for Beginners: Learn Git in 1 Hour
+              </p>
+              <p class="video-author">
+                Programming with Mosh
+              </p>
+              <p class="video-stats">
+                3M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq7201.avif">
+            <div class="video-time">14:54</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile1.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Smile: Tiny Desk Concert
+              </p>
+              <p class="video-author">
+                NPR Music
+              </p>
+              <p class="video-stats">
+                3.2M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq7202.avif">
+            <div class="video-time">1:38:41</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile2.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Einmusik b2b Jonas Saalbach live at Preikestolen in Norway for Cercle
+              </p>
+              <p class="video-author">
+                Cercle
+              </p>
+              <p class="video-stats">
+                17M views &#183; 5 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq7203.avif">
+            <div class="video-time">5:05</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile3.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+              <p class="video-author">
+                Mastery Learning
+              </p>
+              <p class="video-stats">
+                1.1M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq7204.avif">
+            <div class="video-time">1:54</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile4.jpg ">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Welcome to the Oceanic Pole of Inaccessibility, aka Point Nemo
+              </p>
+              <p class="video-author">
+                The Ocean Race
+              </p>
+              <p class="video-stats">
+                777K views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq7205.avif">
+            <div class="video-time">2:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile5.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                ‘Live a little’ | an award winning short film made with iPhone
+              </p>
+              <p class="video-author">
+                George Ammerlaan
+              </p>
+              <p class="video-stats">
+                861K views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq7206.avif">
+            <div class="video-time">3:25</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile6.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                What is an API?
+              </p>
+              <p class="video-author">
+                MuleSoft Videos
+              </p>
+              <p class="video-stats">
+                5.2M views &#183; 10 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq7207.avif">
+            <div class="video-time">8:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile7.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                SURFING THE CLEANEST WAVES EVER! (RAW POV)
+              </p>
+              <p class="video-author">
+                Surfing With Noz
+              </p>
+              <p class="video-stats">
+                2.5M views &#183; 7 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq7208.avif">
+            <div class="video-time">1:02:07</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile8.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Bohemian Betyars - Fishing on Orfű 2023 (Teljes koncert)
+              </p>
+              <p class="video-author">
+                Fishing on Orfű
+              </p>
+              <p class="video-stats">
+                40K views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq7209.avif">
+            <div class="video-time">3:21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile9.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Sam Altman explains how to come up with a great startup idea
+              </p>
+              <p class="video-author">
+                Startup Archive
+              </p>
+              <p class="video-stats">
+                93K views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq72010.avif">
+            <div class="video-time">23:02</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile10.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Can I Beat Blindfolded Magnus Carlsen?
+              </p>
+              <p class="video-author">
+                Annna Cramling
+              </p>
+              <p class="video-stats">
+                3M views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq72011.avif">
+            <div class="video-time">7:27</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile11.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kitesurfer Jumps Over A Flying Plane! (world first)🛩️
+              </p>
+              <p class="video-author">
+                Red Bull
+              </p>
+              <p class="video-stats">
+                589K views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
